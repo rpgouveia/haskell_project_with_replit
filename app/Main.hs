@@ -1,7 +1,6 @@
 {-|
 Module      : Main
 Description : Aplicação principal do sistema de biblioteca
-Copyright   : (c) Equipe Haskell, 2024
 
 Interface CLI simples para demonstrar o uso dos módulos da biblioteca.
 -}

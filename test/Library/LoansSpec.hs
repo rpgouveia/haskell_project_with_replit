@@ -1,7 +1,6 @@
 {-|
 Module      : Library.LoansSpec
 Description : Testes para o módulo Library.Loans
-Copyright   : (c) QA Team, 2024
 -}
 module Library.LoansSpec (spec) where
 

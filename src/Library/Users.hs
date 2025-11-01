@@ -1,8 +1,6 @@
 {-|
 Module      : Library.Users
 Description : Operações relacionadas a usuários
-Copyright   : (c) Desenvolvedor 3, 2024
-Maintainer  : dev3@example.com
 
 Este módulo fornece funcionalidades para gerenciar usuários da biblioteca.
 -}

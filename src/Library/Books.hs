@@ -1,8 +1,6 @@
 {-|
 Module      : Library.Books
 Description : Operações relacionadas a livros
-Copyright   : (c) Desenvolvedor 2, 2024
-Maintainer  : dev2@example.com
 
 Este módulo fornece funcionalidades para gerenciar livros na biblioteca.
 -}

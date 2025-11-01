@@ -1,7 +1,6 @@
 {-|
 Module      : Library.UsersSpec
 Description : Testes para o módulo Library.Users
-Copyright   : (c) QA Team, 2024
 -}
 module Library.UsersSpec (spec) where
 

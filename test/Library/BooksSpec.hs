@@ -1,7 +1,6 @@
 {-|
 Module      : Library.BooksSpec
 Description : Testes para o módulo Library.Books
-Copyright   : (c) QA Team, 2024
 -}
 module Library.BooksSpec (spec) where
 

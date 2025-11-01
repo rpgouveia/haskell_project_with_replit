@@ -1,8 +1,6 @@
 {-|
 Module      : Library.Types
 Description : Tipos básicos do sistema de biblioteca
-Copyright   : (c) Desenvolvedor 1, 2024
-Maintainer  : dev1@example.com
 
 Este módulo define os tipos fundamentais usados em todo o sistema.
 -}

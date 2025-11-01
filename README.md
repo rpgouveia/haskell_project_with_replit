@@ -4,12 +4,12 @@ Sistema simples de gerenciamento de biblioteca desenvolvido em Haskell, demonstr
 
 ## 📋 Estrutura do Projeto
 
-O projeto está organizado em 4 módulos principais, cada um desenvolvido por um membro diferente da equipe:
+O projeto está organizado em 4 módulos principais:
 
-- **Library.Types** (Desenvolvedor 1): Tipos básicos e estruturas de dados
-- **Library.Books** (Desenvolvedor 2): Operações relacionadas a livros
-- **Library.Users** (Desenvolvedor 3): Gerenciamento de usuários
-- **Library.Loans** (Desenvolvedor 4): Sistema de empréstimos
+- **Library.Types**: Tipos básicos e estruturas de dados
+- **Library.Books**: Operações relacionadas a livros
+- **Library.Users**: Gerenciamento de usuários
+- **Library.Loans**: Sistema de empréstimos
 
 ## 🛠️ Requisitos
 
@@ -105,10 +105,3 @@ Para adicionar novas funcionalidades:
 ## 📄 Licença
 
 MIT
-
-## 👥 Equipe
-
-- Desenvolvedor 1: Sistema de tipos
-- Desenvolvedor 2: Módulo de livros
-- Desenvolvedor 3: Módulo de usuários
-- Desenvolvedor 4: Módulo de empréstimos

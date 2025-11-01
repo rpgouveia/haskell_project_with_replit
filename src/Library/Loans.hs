@@ -1,8 +1,6 @@
 {-|
 Module      : Library.Loans
 Description : Operações relacionadas a empréstimos
-Copyright   : (c) Desenvolvedor 4, 2024
-Maintainer  : dev4@example.com
 
 Este módulo fornece funcionalidades para gerenciar empréstimos de livros.
 -}
