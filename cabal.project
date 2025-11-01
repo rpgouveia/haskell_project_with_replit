@@ -1,0 +1,4 @@
+packages: .
+
+-- Configurações opcionais para o projeto
+-- write-ghc-environment-files: always

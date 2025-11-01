@@ -1,0 +1,51 @@
+cabal-version:      3.0
+name:               haskell-library-manager
+version:            0.1.0.0
+synopsis:           Sistema simples de gerenciamento de biblioteca
+description:        Projeto exemplo com 4 módulos simulando desenvolvimento colaborativo
+license:            MIT
+author:             Equipe Haskell
+maintainer:         exemplo@email.com
+category:           Example
+build-type:         Simple
+
+common warnings
+    ghc-options: -Wall
+
+library
+    import:           warnings
+    exposed-modules:  Library.Types
+                    , Library.Books
+                    , Library.Users
+                    , Library.Loans
+    build-depends:    base >=4.18 && <5
+                    , time >=1.12 && <1.15
+                    , containers >=0.6 && <0.8
+    hs-source-dirs:   src
+    default-language: Haskell2010
+
+executable haskell-library-manager
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base >=4.18 && <5
+                    , haskell-library-manager
+                    , time >=1.12 && <1.15
+                    , containers >=0.6 && <0.8
+    hs-source-dirs:   app
+    default-language: Haskell2010
+
+test-suite haskell-library-manager-test
+    import:           warnings
+    type:             exitcode-stdio-1.0
+    main-is:          Spec.hs
+    other-modules:    Library.BooksSpec
+                    , Library.UsersSpec
+                    , Library.LoansSpec
+    build-depends:    base >=4.18 && <5
+                    , haskell-library-manager
+                    , hspec >=2.10 && <2.12
+                    , time >=1.12 && <1.15
+                    , containers >=0.6 && <0.8
+    build-tool-depends: hspec-discover:hspec-discover >=2.10 && <2.12
+    hs-source-dirs:   test
+    default-language: Haskell2010
